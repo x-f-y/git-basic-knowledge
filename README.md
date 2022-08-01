@@ -248,11 +248,11 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 使用`Fast-forward`模式合并分支：
 
-![](./images/img_2.png)
+![img_2](./images/img_2.png)
 
 禁用`Fast-forward`模式合并分支：
 
-![](./images/img_3.png)
+![img_3](./images/img_3.png)
 
 总结：合并分支时，加上`--no-ff`参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而`Fast-forward`合并就看不出来曾经做过合并
 
