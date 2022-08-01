@@ -48,7 +48,7 @@
 
 `Git`本地有三个区域：工作区、暂存区、本地仓库。如果再加上远程的`git`仓库，就可以分为四个区域。文件在这四个区域之间的转换关系如下：
 
-![image-20220510101715889](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20220510101715889.png)
+![](./images/img_1.png)
 
 - 工作区：就是存放项目代码的文件夹
 - 暂存区：用于临时存放文件的改动，事实上它只是一个文件，保存即将提交（`commit`）的文件列表信息
@@ -248,11 +248,11 @@ $ git log --graph --pretty=oneline --abbrev-commit
 
 使用`Fast-forward`模式合并分支：
 
-![image-20220801100830765](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20220801100830765.png)
+![](./images/img_2.png)
 
 禁用`Fast-forward`模式合并分支：
 
-![image-20220801101036225](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20220801101036225.png)
+![](./images/img_3.png)
 
 总结：合并分支时，加上`--no-ff`参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而`Fast-forward`合并就看不出来曾经做过合并
 
